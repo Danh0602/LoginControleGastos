@@ -1,0 +1,145 @@
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    outline: none;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(Dinheiro.jpg);
+  }
+  
+  main {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resume {
+    display: flex;
+    padding: 10px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+  }
+  
+  .resume > div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .newItem {
+    display: flex;
+    gap: 10px;ss
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .divDesc, .divType, .divAmount {
+    box-shadow: 0px 0px 10px #ffffff;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .newItem > button {
+    background-color: #00ff9d;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 34px;
+  }
+  
+  input, select {
+    padding: 5px;
+    color: #000000;
+  }
+  
+  .divTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 98%;
+    padding: 20px 0;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  th {
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 10px;
+    color: #f5f5f5;
+  }
+  
+  i {
+    font-size: 25px;
+  }
+  
+  .bxs-chevron-up-circle {
+    color: #00ffff;
+  }
+  
+  .bxs-chevron-down-circle {
+    color: #ff0000;
+  }
+  
+  .columnAction {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .columnAction > button {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .columnAmount {
+    width: 30%;
+    color: #ffffff;
+  }
+  
+  .columnType {
+    width: 80px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+input[type="text"],
+select {
+  background-color: transparent;
+  border: 1px solid #FFFFFF; /* Cor branca da borda */
+  color: #FFFFFF; /* Cor do texto */
+  padding: 5px;
+}
+
+.divAmount input {
+  background-color: transparent;
+  border: 1px solid #FFFFFF; /* Cor branca da borda */
+  color: #FFFFFF; /* Cor do texto */
+  padding: 5px;
+}

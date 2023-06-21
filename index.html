@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Desiner.css">
+    <title>astro</title>
+</head>
+<body>
+    <div class="main-content">
+        <div class="wrapping"><!--TAG CRIADA PARA MANIPULAR O CONTAINER E SEPARAR O MAIN CONTENT DO FOOTER-->
+            <main class="container">
+             <aside class="aside-container">
+                <div class="letter-content">
+                    <h1>Faça login<br>Tenha controle dos seus gastos</h1>
+                </div>
+                <figure class="image-content">
+                </figure>
+             </aside>
+            <div class="right">
+                <div class="login">
+                    <div class="log">
+                        <h1>LOGIN</h1>
+                    </div>
+                    <form id="login-form">
+                        <label for="usuario">Usuário</label>
+                        <input id="usuario" class="campo" name="usuario" type="text" autofocus>
+                        <label for="senha">Senha</label>
+                        <input id="senha" name="senha" class="campo" type="password" data-ls-module="charCounter" maxlength="20">
+                        <button type="submit">Logar agora</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="wrapping-footer">
+        <footer class="rodape">
+            <span>Developed by: Danilo Freitas</span>
+        </footer>
+        <div class="redes">
+            <a href="https://github.com/danh0602"><img src="assets/github.png" alt=""> GitHub</a>
+        </div>
+    </div>
+
+    <script src="Login.js"></script>
+</body>
+</html>
